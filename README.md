@@ -1,9 +1,9 @@
 # Footle - Footballer Guessing Game
 
-Footle is a footballer guessing game, similar to the conecpt of Worlde.
+Footle is a footballer guessing game, similar to the concept of Worlde.
 The game allows users 10 guesses to work out the mystery footballer. Currently the game is limited to Premier League footballers, including all 20 teams and their full squads. 
 This game was made using React.js, CSS and utilised my Web-Scraper, which gathers data from www.transfermarkt.co.uk and stores within a MongoDB database. 
-My game was made during Summer 2023, as a solo project. I chose to make a footballee guessing game because football is something I am very passionate about, and it highly interests me.
+My game was made during Summer 2023, as a solo project. I chose to make a footballer guessing game because football is something I am very passionate about, and it highly interests me.
 
 ## How the game works
 After running the game, by executing ```npm start``` in the terminal, a random player from within the database is chosen to by the mystery player for the game.
