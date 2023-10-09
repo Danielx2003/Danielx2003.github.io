@@ -12,13 +12,13 @@ Then, the game begins. You are given 10 guesses to work out the mystery football
 The game considers 5 attributes about the players; Age, Position, Foot, Nation and Club.
 When a guess is made, if an attribute matches one of the mystery player, that tile will become green.
 
-For example, guessing Jarrod Bowen in this game, results in:
+For example, guessing Jarrod Bowen in this game, results in: __
 
 ![image](https://github.com/Danielx2003/Footle/assets/70431670/3cd4201c-b9b2-4774-b6a5-fffc76b8fcfa)
 
 This indicates that there are no matches. The player is younger than 26, not a forward, not left footed, not from England, and not a West Ham player.
 
-Guessing Fabio Viera this time, results in:
+Guessing Fabio Viera this time, results in: __
 
 ![image](https://github.com/Danielx2003/Footle/assets/70431670/07bc7568-eb76-44e4-b77b-9a90e26fb51b)
 
