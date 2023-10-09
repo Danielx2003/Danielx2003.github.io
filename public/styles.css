@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(250, 250, 250), rgb(219, 219, 219));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Inter', 'san-serif';
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    line-height: 80px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 2px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    width: 20%;
+    min-width: 200px; 
+    margin: 0;
+    left:40%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.element {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 8px;
+    background-color: rgb(230, 230, 230);
+    font-size: 1.4rem;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.element:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.dropdown--input{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+    padding-left: 1rem;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.dropdown--input:focus {
+    outline: none;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.player {
+    margin: 0 auto;
+    margin-top: 45px;
+    height: 350px;
+    width: 45%;
+    min-width: 340px;
+    max-width: 490px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.player--top {
+    margin-top: 5px;
+    margin-left: 10px;
+    min-width: 340px;
+    max-width: 490px;
+    display: flex;
+    width: 92%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.player--img {  
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: grey;
+    border-radius: 100%;
+    width: 70px;
+}
+
+.player--bottom {
+    width: 100%
+}
+
+.player--stats-top {
+    margin: 0 auto;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.player--stats-bottom {
+    margin: 0 auto;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.correct {
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 90%;
+    width: 30%;
+    min-width: 110px;
+    max-width: 150px;
+    border-radius: 15px;
+    background-color: green;
+    font-size: 1.4rem;
+}
+
+.wrong {
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 90%;
+    width: 30%;
+    min-width: 110px;
+    max-width: 150px;
+    border-radius: 15px;
+    background-color: rgb(252, 57, 57);
+    font-size: 1.4rem;
+}
+
+.winner-sign {
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+
+}
+
+.player--country {
+    width: 30%;
+}
+
+.player--club {
+    width: 25%;
+}
+
+.stat--title {
+    font-weight: 400;
+}
+
+.stat--stat {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.counter {
+    margin-bottom: 10px;
+}
+
+.player--name {
+    font-weight: 500;
+}
