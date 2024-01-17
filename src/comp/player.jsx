@@ -29,7 +29,6 @@ export default function Player(props) {
                         <p className="stat-title">Foot</p>
                         <p className="stat--stat">{props.item.foot}</p>
                     </div>
-
                 </div>
                 <div className="player--stats-bottom">
                     <div className={props.item.country == props.goal.country ? "correct" : "wrong"}>
@@ -42,7 +41,6 @@ export default function Player(props) {
                     </div>
 
                 </div>
-
             </div>
 
         </div>

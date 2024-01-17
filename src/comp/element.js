@@ -1,9 +1,14 @@
 import React from 'react';
 
-
 export default function Element(props) {
     function handleClick(e) {
-        props.guess(prevArr => [...prevArr, props.data])
+        if (props.guess.length == 0) {
+            props.setGuess(prevArr => [...prevArr, props.data])
+        } else if (props.guess.includes(props.data)) {
+            console.log("already guessed")
+        } else {
+            props.setGuess(prevArr => [...prevArr, props.data])
+        }
         props.setSend([])
         props.setInput("")
     }

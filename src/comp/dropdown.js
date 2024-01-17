@@ -35,7 +35,8 @@ export default function Dropdown(props) {
             {props.setGuesses(guessArr)}
             {send.map(play => <Element
                 data={play}
-                guess={setGuessArr}
+                guess={guessArr}
+                setGuess={setGuessArr}
                 setSend={setSend}
                 setInput={setInput}
             />)}
