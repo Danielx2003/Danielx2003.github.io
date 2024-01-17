@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from "./comp/Header.jsx"
-import Player from "./comp/Player.jsx"
-import Dropdown from "./comp/Dropdown.jsx"
-import Counter from "./comp/Counter.jsx"
-import Winner from "./comp/Winner.jsx"
-import Loser from "./comp/Loser.jsx"
+import Header from "./components/Header.jsx"
+import Player from "./components/Player.jsx"
+import Dropdown from "./components/Dropdown.jsx"
+import Counter from "./components/Counter.jsx"
+import Winner from "./components/Winner.jsx"
+import Loser from "./components/Loser.jsx"
 import players from "./tempData.js"
 
 
