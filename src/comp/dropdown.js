@@ -1,5 +1,5 @@
 import React from 'react';
-import Element from "./element.js"
+import Element from "./Element.js"
 import players from "../tempData.js"
 
 export default function Dropdown(props) {
