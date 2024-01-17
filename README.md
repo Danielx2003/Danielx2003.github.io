@@ -14,15 +14,17 @@ When a guess is made, if an attribute matches one of the mystery player, that ti
 
 For example, guessing Jarrod Bowen in this game, results in: __
 
-![image](https://github.com/Danielx2003/Footle/assets/70431670/3cd4201c-b9b2-4774-b6a5-fffc76b8fcfa)
+![image](https://github.com/Danielx2003/Footle/assets/70431670/44e50cb6-62a2-484a-9757-6104c2f93a7b)
 
-This indicates that there are no matches. The player is younger than 26, not a forward, not left footed, not from England, and not a West Ham player.
 
-Guessing Fabio Viera this time, results in: __
+This indicates that there are 4. The player is younger than 26, a forward, left footed, from England, and a West Ham player.
 
-![image](https://github.com/Danielx2003/Footle/assets/70431670/07bc7568-eb76-44e4-b77b-9a90e26fb51b)
+Guessing Divin Mubama this time, results in: __
 
-This indicates the player is 23, a midfielder, but is not left footed, not from Portugal, and not an Arsenal player.
+![image](https://github.com/Danielx2003/Footle/assets/70431670/967c05b7-8c38-4303-96e6-416b470a7d4f)
+
+
+All attributes were correct, so the game is won!
 
 The game ends when the user either guesses the correct player, or reaches a total of 10 guesses.
 The program can be run again by closing the browser, and running ```npm start``` in the terminal. This will select a random player from the database, and the game can be played again!
