@@ -22,15 +22,18 @@ header {
     box-shadow: 0 0 2px;
     height: 80px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .dropdown {
     width: 20%;
     min-width: 200px; 
     margin: 0;
-    left:40%;
-    position: absolute;
     z-index: 1;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -57,6 +60,9 @@ header {
     padding-left: 1rem;
     min-width: 200px;
     max-width: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .dropdown--input:focus {
@@ -64,13 +70,16 @@ header {
 }
 
 .container {
+    display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
 .player {
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 1.2rem;
     height: 350px;
     width: 45%;
     min-width: 340px;
@@ -156,12 +165,26 @@ header {
 
 .winner-sign {
     width: 50%;
-    height: 100px;
-    background-color: black;
+    height: 70%;
+    background-color: rgb(99, 200, 99);
     color: white;
     position: fixed;
     z-index: 1;
     left: 25%;
+    box-shadow: 0 0 2px;
+
+}
+
+.loser-sign {
+    width: 60%;
+    height: 70%;
+    background-color: rgb(196, 172, 172);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 5px 5px rgb(204, 183, 183);
+    left: 20%;
+    display: none;
 
 }
 

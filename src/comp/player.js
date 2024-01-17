@@ -9,8 +9,6 @@ export default function Player(props) {
         ageTxt = props.item.age + " ↑"
     }
 
-    console.log(props.item.club)
-
     return (
         <div className="player">
             <div className="player--top">
