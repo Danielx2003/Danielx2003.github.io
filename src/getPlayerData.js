@@ -10,7 +10,7 @@ async function getPlayers() {
         const db = client.db('footle');
         const collection = db.collection('players');
         // Find the first document in the collection
-        const result = await collection.find({}, { projection: { _id: 0 } }).toArray()
+        const result = await collection.find({}).toArray()
         fs.writeFile("tempData.js", JSON.stringify(result), (err) => {
             if (err) { throw err; }
         })

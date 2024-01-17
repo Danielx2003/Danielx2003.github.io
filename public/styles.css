@@ -131,6 +131,7 @@ header {
 }
 
 .correct {
+    color: white;
     animation-duration: 250ms;
     animation-delay: 0ms;
     animation: flip-out 1s;
@@ -148,6 +149,7 @@ header {
     background-color: green;
     font-size: 1.4rem;
 }
+
 
 .wrong {
     text-align: center;
