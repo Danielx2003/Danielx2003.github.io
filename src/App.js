@@ -5,6 +5,7 @@ import Dropdown from "./comp/dropdown.js"
 import Counter from "./comp/counter.js"
 import Winner from "./comp/winner.js"
 import Loser from "./comp/loser.js"
+import Card from "./comp/card.js"
 import players from "./tempData.js"
 
 
@@ -30,6 +31,7 @@ export default function App(props) {
     return (
         <div className="container">
             <Header />
+            <Card/>
             <Counter count={playerGusessArr.length} />
             <Dropdown
                 setGuesses={setGuessArr}
