@@ -13,7 +13,7 @@ export default function Player(props) {
         <div className="player">
             <div className="player--top">
                 <img src={props.item.photo} alt="Player Img" className="player--img"></img>
-                <h1 className="player--name">{props.item.name}</h1>
+                <h1 className={props.item.name.length > 12 ? "player--name-small" : "player--name"}>{props.item.name}</h1>
             </div>
             <div className="player--bottom">
                 <div className="player--stats-top">

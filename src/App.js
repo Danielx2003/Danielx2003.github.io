@@ -43,6 +43,12 @@ export default function App(props) {
                 setGuesses={setGuessArr}
                 gameOver={isGameOver()}
             />
+            <Winner
+                winner={playerGusessArr.includes(props.player) ? true : false}
+            />
+            <Loser
+                loser={playerGusessArr}
+            />
             {playerGusessArr.reverse().map((player) => <Player key={player._id} item={player} goal={props.player} />)}
         </div>
 
