@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from "./comp/Header.js"
+import Header from "./comp/Header.jsx"
 import Player from "./comp/Player.jsx"
-import Dropdown from "./comp/Dropdown.js"
-import Counter from "./comp/Counter.js"
-import Winner from "./comp/Winner.js"
-import Loser from "./comp/Loser.js"
-import Card from "./comp/card.js"
+import Dropdown from "./comp/Dropdown.jsx"
+import Counter from "./comp/Counter.jsx"
+import Winner from "./comp/Winner.jsx"
+import Loser from "./comp/Loser.jsx"
 import players from "./tempData.js"
 
 
@@ -42,12 +41,6 @@ export default function App(props) {
             <Dropdown
                 setGuesses={setGuessArr}
                 gameOver={isGameOver()}
-            />
-            <Winner
-                winner={playerGusessArr.includes(props.player) ? true : false}
-            />
-            <Loser
-                loser={playerGusessArr}
             />
             {playerGusessArr.reverse().map((player) => <Player key={player._id} item={player} goal={props.player} />)}
         </div>
