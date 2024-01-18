@@ -13,12 +13,12 @@ export default function App(props) {
     console.log(props.player)
     const [gameOver, setGameOver] = React.useState(false)
 
-    const [playerGusessArr, setGuessArr] = React.useState([]) //
+    const [playerGuesses, setGuessArr] = React.useState([]) //
 
     function isGameOver() {
-        if (playerGusessArr.length >= 10) {
+        if (playerGuesses.length >= 10) {
             return true;
-        } else if (playerGusessArr.includes(props.player)) {
+        } else if (playerGuesses.includes(props.player)) {
             return true;
         } else {
             return false
@@ -37,12 +37,15 @@ export default function App(props) {
     return (
         <div className="container">
             <Header />
-            <Counter count={playerGusessArr.length} />
-            <Dropdown
-                setGuesses={setGuessArr}
-                gameOver={isGameOver()}
-            />
-            {playerGusessArr.reverse().map((player) => <Player key={player._id} item={player} goal={props.player} />)}
+            <Counter count={playerGuesses.length} />
+            <main>
+                <Dropdown
+                    setGuesses={setGuessArr}
+                    gameOver={isGameOver()}
+                />
+                {playerGuesses.reverse().map((player) => <Player key={player._id} item={player} goal={props.player} />)}
+            </main>
+
         </div>
 
     )

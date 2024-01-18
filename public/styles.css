@@ -66,7 +66,7 @@ header {
     outline: none;
 }
 
-.container {
+.container, main {
     display: flex;
     text-align: center;
     align-items: center;
