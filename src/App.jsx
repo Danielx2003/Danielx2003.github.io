@@ -14,6 +14,7 @@ export default function App(props) {
     const [gameOver, setGameOver] = React.useState(false)
 
     const [playerGuesses, setGuessArr] = React.useState([]) //
+    console.log("PLAYER GUESS ARR IS", playerGuesses)
 
     function isGameOver() {
         if (playerGuesses.length >= 10) {

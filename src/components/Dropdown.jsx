@@ -7,6 +7,8 @@ export default function Dropdown(props) {
     const [guessArr, setGuessArr] = React.useState([])
     const [input, setInput] = React.useState("")
 
+    console.log(guessArr, "is the guessArr in Dropdown")
+
     function handleTyping(e) {
         const result = e.target.value.length > 3 ? getFilteredItems(e.target.value) : ""
         setSend([...result])

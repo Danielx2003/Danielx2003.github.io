@@ -5,7 +5,6 @@ export default function Header() {
         <header>
             <h1>FOOTLE</h1>
         </header>
-
     )
 
 }
